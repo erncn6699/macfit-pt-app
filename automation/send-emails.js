@@ -90,8 +90,11 @@ async function run() {
     for (let i = 0; i < batch.length; i++) {
         const trainer = batch[i];
         
-        const subject = EMAIL_SUBJECT.replace(/{{NAME}}/g, trainer.name);
-        const text = EMAIL_BODY.replace(/{{NAME}}/g, trainer.name);
+        let firstName = trainer.name.trim().split(' ').slice(0, -1).join(' ');
+        if (!firstName) firstName = trainer.name.trim();
+
+        const subject = EMAIL_SUBJECT.replace(/{{NAME}}/g, firstName);
+        const text = EMAIL_BODY.replace(/{{NAME}}/g, firstName);
 
         try {
             console.log(`[${i+1}/${batch.length}] Gonderiliyor: ${trainer.name} <${trainer.email}>`);
