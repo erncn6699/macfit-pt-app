@@ -1,0 +1,135 @@
+[
+  {
+    "name": "Demet Sarı",
+    "email": "demosari.95@gmail.com",
+    "sourceImage": "0041E6A9-C6F4-40F3-9BCE-CBF089231BDE_1_105_c.jpeg",
+    "sent": true,
+    "sentAt": "2026-09-23T19:06:20.231Z"
+  },
+  {
+    "name": "Onur Şenal",
+    "email": "onursenal@yandex.com",
+    "sourceImage": "0351F454-F8BE-4BD5-B49D-8D9EB17D2464_1_105_c.jpeg",
+    "sent": true,
+    "sentAt": "2026-09-23T19:06:26.221Z"
+  },
+  {
+    "name": "Uğur Okurlar",
+    "email": "ugurokurlar@gmail.com",
+    "sourceImage": "03FBF084-6F7F-4586-B653-107109D64724_1_105_c.jpeg",
+    "sent": true,
+    "sentAt": "2026-09-23T19:06:32.168Z"
+  },
+  {
+    "name": "Berna Ünal",
+    "email": "bernaunalmac@hotmail.com",
+    "sourceImage": "048795C4-AE1E-4B8B-8DD3-F2047FAD63EA_1_105_c.jpeg",
+    "sent": true,
+    "sentAt": "2026-09-23T19:06:38.017Z"
+  },
+  {
+    "name": "Fatma Erdoğmuş",
+    "email": "pt.fatmaerdogmus@gmail.com",
+    "sourceImage": "1BB2CB0E-A782-49AD-BC7E-BB3712E4C821_1_105_c.jpeg",
+    "sent": true,
+    "sentAt": "2026-09-23T19:06:44.174Z"
+  },
+  {
+    "name": "Çiğdem Yakut",
+    "email": "cigdemyakut1@gmail.com",
+    "sourceImage": "1D874AF4-C722-4E88-8993-5A0936A47B92_1_105_c.jpeg",
+    "sent": true,
+    "sentAt": "2026-09-23T19:06:50.039Z"
+  },
+  {
+    "name": "Ersin Bektaş",
+    "email": "ersinbektas52@hotmail.com",
+    "sourceImage": "1DD0BD28-E3D8-4766-982D-B0D82EAA510F_1_105_c.jpeg",
+    "sent": true,
+    "sentAt": "2026-09-23T19:06:55.905Z"
+  },
+  {
+    "name": "Esranur Eren",
+    "email": "pilatesr4@gmail.com",
+    "sourceImage": "1EA0977B-DD51-4308-9407-7915C04139AF_1_105_c.jpeg",
+    "sent": true,
+    "sentAt": "2026-09-23T19:07:02.033Z"
+  },
+  {
+    "name": "Emre Alkan",
+    "email": "emreaalkan5@gmail.com",
+    "sourceImage": "20C3C304-9E11-47DE-BD8B-D0040F2E2795_1_105_c.jpeg",
+    "sent": true,
+    "sentAt": "2026-09-23T19:07:07.959Z"
+  },
+  {
+    "name": "Kadir Topal",
+    "email": "kadirvercetti.pt@gmail.com",
+    "sourceImage": "298EC8DE-18B0-4B26-B223-DCCE1D20EE26_1_105_c.jpeg",
+    "sent": true,
+    "sentAt": "2026-09-23T19:07:13.877Z"
+  },
+  {
+    "name": "Ahmet Salih Sofuoğlu",
+    "email": "ahmtsalihh@gmail.com",
+    "sourceImage": "2A77F1FE-0C88-4EDB-9CCB-B893CC520321_1_105_c.jpeg",
+    "sent": true,
+    "sentAt": "2026-09-23T19:07:19.671Z"
+  },
+  {
+    "name": "Muhammet Yasin Güler",
+    "email": "yasinn.guler@hotmail.com",
+    "sourceImage": "2B35B277-8B37-4CF9-96AD-AE3EB4BBDEF9_1_105_c.jpeg",
+    "sent": true,
+    "sentAt": "2026-09-23T19:07:25.601Z"
+  },
+  {
+    "name": "HİLAL ÖZDEMİR",
+    "email": "hilalooozdemir@gmail.com",
+    "sourceImage": "2D558C97-E59D-4147-B9BA-AE447A806C15_1_105_c.jpeg",
+    "sent": true,
+    "sentAt": "2026-09-23T19:07:31.501Z"
+  },
+  {
+    "name": "Hüsnü Cesur",
+    "email": "cesurhusnu@gmail.com",
+    "sourceImage": "3F685822-C032-4612-9118-7A7BE28E8B15_1_105_c.jpeg",
+    "sent": true,
+    "sentAt": "2026-09-23T19:07:37.417Z"
+  },
+  {
+    "name": "Burak Barak",
+    "email": "burak.barak27@gmail.com",
+    "sourceImage": "E1B066F3-7930-4746-9348-0C6C6BE44BD6_1_105_c.jpeg",
+    "sent": true,
+    "sentAt": "2026-09-23T19:07:43.245Z"
+  },
+  {
+    "name": "Demet Köse",
+    "email": "ddemetb7@gmail.com",
+    "sourceImage": "0085F707-26EA-47F9-8528-BC0033BF7BF3_1_105_c.jpeg",
+    "sent": false,
+    "sentAt": null
+  },
+  {
+    "name": "Ali Demirtaş",
+    "email": "alidemrtas3461@gmail.com",
+    "sourceImage": "1B15916C-77CC-4330-A6F9-530A03C59F38_1_105_c.jpeg",
+    "sent": false,
+    "sentAt": null
+  },
+  {
+    "name": "Ahmet Hakan İlaslan",
+    "email": "ahmethakanilaslan@gmail.com",
+    "sourceImage": "4FD1C130-E484-4054-A4F1-0894F43341C7_1_105_c.jpeg",
+    "sent": false,
+    "sentAt": null
+  },
+  {
+    "name": "Ferhat Arslan",
+    "email": "fa1548043@gmail.com",
+    "sourceImage": "98553B87-1EFF-469B-BC38-905792A78669_1_105_c.jpeg",
+    "sent": false,
+    "sentAt": null
+  }
+]
