@@ -1,0 +1,108 @@
+{
+  "trainer": {
+    "name": "Elif Kaya",
+    "name_slug": "elif-kaya",
+    "role": "Kişisel Eğitmen",
+    "branch": "MacFit Kadıköy",
+    "email": "ornek@elifkayapt.com",
+    "whatsapp": "905XXXXXXXXX",
+    "whatsapp_msg": "Merhaba Elif Hanım, web sitenizden ulaşıyorum. Kişisel antrenman programlarınız hakkında bilgi almak istiyorum.",
+    "instagram": "elifkayapt",
+    "years_experience": "2018",
+    "tagline": "Hedefin net, programın kişisel.",
+    "bio_short": "Merhaba, ben Elif. 2018'den bu yana MacFit Kadıköy'de personal trainer olarak çalışıyorum; ACE sertifikalı antrenörlük ve beslenme danışmanlığı eğitimlerimi tamamladım. Kilo yönetimi, kas kazanımı ve fonksiyonel hareket konularında danışanlarımın yanındayım.",
+    "bio_long": "2018'den bu yana MacFit Kadıköy'de personal trainer olarak çalışıyorum. Fonksiyonel antrenman, kilo yönetimi ve güç antrenmanı alanlarında uzmanlaştım. Her danışanıma önce hareket analizi yapıyor, ardından kendi hedefine ve günlük yaşam ritmine uygun bir program tasarlıyorum.",
+    "certifications": [
+      "ACE Sertifikalı Personal Trainer",
+      "Beslenme Danışmanlığı Eğitimi",
+      "Fonksiyonel Hareket Sertifikası"
+    ]
+  },
+  "stats": {
+    "clients": "999+",
+    "sessions": "3.000+",
+    "satisfaction": "%97"
+  },
+  "services": {
+    "individual": {
+      "title": "Bireysel PT",
+      "description": "Haftada 2-3 seans, birebir teknik takip ve düzenli program güncellemesi.",
+      "features": [
+        "Hareket analizi ile başlangıç",
+        "Haftalık program güncelleme",
+        "WhatsApp üzerinden destek"
+      ]
+    },
+    "online": {
+      "title": "Online Koçluk",
+      "description": "Farklı şehirde ya da yurt dışında olan danışanlar için uzaktan program ve takip.",
+      "features": [
+        "Haftalık video kontrolü",
+        "Beslenme planı",
+        "Aylık ölçüm takibi"
+      ]
+    },
+    "group": {
+      "title": "Grup Dersleri",
+      "description": "MacFit Kadıköy'de haftada 2 gün, küçük grupla fonksiyonel antrenman.",
+      "features": [
+        "Maksimum 6 kişi",
+        "Fonksiyonel egzersiz ağırlıklı",
+        "Motivasyon odaklı ortam"
+      ]
+    }
+  },
+  "images": {
+    "avatar": "assets/images/avatar.jpg",
+    "hero": [
+      {
+        "src": "assets/images/hero-banner-1.jpg",
+        "alt": "MacFit Kadıköy'da bir antrenman seansı"
+      },
+      {
+        "src": "assets/images/hero-banner-2.jpg",
+        "alt": "MacFit Kadıköy'da grup dersi"
+      },
+      {
+        "src": "assets/images/hero-banner-3.jpg",
+        "alt": "MacFit Kadıköy'de özel beslenme danışmanlığı",
+        "promo": true
+      }
+    ],
+    "bento": [
+      {
+        "src": "assets/images/bento-gym.jpg",
+        "alt": "MacFit Kadıköy çalışma alanı"
+      },
+      {
+        "src": "assets/images/bento-cert.jpg",
+        "alt": "Sertifika töreni"
+      },
+      {
+        "src": "assets/images/bento-group.jpg",
+        "alt": "Grup dersi"
+      }
+    ]
+  },
+  "site": {
+    "page_title": "Elif Kaya PT",
+    "footer_tagline": "Kadıköy'de kişiye özel, ölçüme dayalı antrenman programları.",
+    "year": "2026"
+  },
+  "products": [
+    {
+      "id": "pdf-30-day",
+      "title": "30 Günlük Evde Yağ Yakım Rehberi (PDF)",
+      "description": "Ekipmansız 30 günlük antrenman programı ve beslenme tüyoları.",
+      "price": "₺499",
+      "paymentUrl": "https://shopier.com/ornek-link-1"
+    },
+    {
+      "id": "pdf-hypertrophy",
+      "title": "Hipertrofi Odaklı Spor Salonu Programı (PDF)",
+      "description": "12 haftalık kas kazanımına yönelik periyotlanmış ağırlık programı.",
+      "price": "₺799",
+      "paymentUrl": "https://shopier.com/ornek-link-2"
+    }
+  ]
+}
