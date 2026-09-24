@@ -16,14 +16,19 @@ const EMAIL_SUBJECTS = [
 const EMAIL_BODIES = [
     `Merhaba {{NAME}} Hocam,
 
-Ben Eren Can Güzelsu. Bilgisayar mühendisiyim, normalde Belçika'da yaşıyorum ama kısa süreliğine Türkiye'ye geldim. Ben de yıllardır sporun içindeyim, buradayken antrenmanlar için MacFit'e yazıldım.
+Ben Eren Can. Kısa süreliğine Türkiye'ye gelmiştim. Ben de yıllardır sporun içindeyim, buradayken antrenmanlar için MacFit'e yazıldım.
 
-{{COMPLIMENT}} teknolojiyi de arkanıza almanız gerektiğini düşündüm. Salonda gözlemlediğim kadarıyla Türkiye'deki antrenörlerin çoğunun kendine ait profesyonel bir web sitesi yok. Oysa Avrupa'da profesyonel PT'ler artık fiyat sorup kaybolanlarla vakit kaybetmiyor, tüm işlerini kendi web siteleri ve asistan araçlarıyla otomatik yönetiyorlar.
+{{COMPLIMENT}} teknolojiyi de arkanıza almanız gerektiğini düşündüm. Salonda gözlemlediğim kadarıyla Türkiye'deki antrenörlerin çoğunun kendine ait profesyonel bir web sitesi yok. Oysa Avrupa'da profesyonel PT'ler artık "fiyat nedir" diye sorup kaybolanlarla vakit kaybetmiyor, tüm işlerini kendi web siteleri ve asistan araçlarıyla otomatik yönetiyorlar.
 
-Sizin için de tamamen size özel bir sistem hazırlayabileceğimizi düşündüm. Bu sistemle:
-- Size sürekli fiyat sorup kaybolanlarla uğraşmazsınız.
-- Öğrencilerinize online ödeme ve taksit gibi kolaylıklar sunabilirsiniz.
-- Sadece birebir dersten değil, hazır PDF ve program satışlarıyla pasif gelir de elde edebilirsiniz.
+Sizin için tamamen size özel bir sistem hazırlayabileceğimizi düşündüm. Bu sistemle şu problemleri çözüyoruz:
+
+- Zaman Kaybını Önleme
+Problem: Hocalara sürekli fiyat sorup kaybolan "ölü" potansiyel müşteriler gelir. Bu büyük vakit kaybıdır.
+Çözüm: Kuracağımız yapay zeka asistanı sıradan robotik cevaplar vermez. Fiyat sorup kaybolanları eler, sadece bütçesi uyan ciddi müşterileri size yönlendirir.
+
+- Pasif Gelir (Uyurken Para Kazanma)
+Problem: PT'nin geliri sadece birebir ders verdiği saate bağlıdır.
+Çözüm: Sisteme ekleyeceğimiz 'Mağaza' bölümüyle 4 haftalık antrenman programları, beslenme PDF'leri gibi hazır kaynaklar satarak siz dersteyken bile gelir elde edebilirsiniz.
 
 Örnek olması için bizzat hazırladığım şu demo siteye bir göz atın isterseniz: https://elifkaya-pt.vercel.app/
 
@@ -32,28 +37,44 @@ Siteyi kurup size gösterdiğimde içinize sinmeyen bir şey olursa zaten hiçbi
 Bana WhatsApp'tan da ulaşabilirsiniz: +32 494 323 170
 
 İyi çalışmalar dilerim hocam, kolay gelsin.
-Eren Can Güzelsu`,
+Eren Can`,
     `Selamlar {{NAME}} Hocam,
 
-Ben Eren. Bilgisayar mühendisiyim, Belçika'da yaşıyorum. Türkiye'ye geldiğimde antrenmanlarım için MacFit'e gidiyorum.
+Ben Eren Can. Kısa süreliğine Türkiye'ye geldim ve geldiğimde antrenmanlarım için MacFit'e gidiyorum.
 
-{{COMPLIMENT}} dijital dünyada da çok daha görünür olmanız gerektiğini fark ettim. Avrupa'da PT'lerin işlerini nasıl profesyonelce yürüttüğünü gördükten sonra, buradaki antrenörlerin neden kendi web sitelerini ve dijital sistemlerini kullanmadığını merak ettim. Çoğu hoca DM'den gelen "fiyat nedir" sorularına cevap vermekle büyük vakit kaybediyor.
+{{COMPLIMENT}} dijital dünyada da çok daha görünür olmanız gerektiğini fark ettim. Avrupa'da PT'lerin işlerini nasıl profesyonelce yürüttüğünü gördükten sonra, buradaki antrenörlerin neden kendi web sitelerini kullanmadığını merak ettim. Çoğu hoca DM'den gelen "fiyat nedir" sorularına cevap vermekle büyük vakit kaybediyor.
 
-Sizin için tamamen profesyonel, sadece ciddi danışanları filtreleyen ve hatta sizin adınıza hazır program satışı yapabilen bir sistem kurmayı çok isterim. Bu sayede ders saatlerinizin dışında da gelir elde etmeye devam edebilirsiniz.
+Sizin için tamamen profesyonel, sadece ciddi danışanları filtreleyen bir sistem kurmayı çok isterim. Bu sistem şu temel problemleri çözüyor:
+
+- Prestij ve Markalaşma
+Problem: Öğrenciler sosyal medya üzerinden alınan hizmetleri bazen basit görebiliyor.
+Çözüm: Size özel hazırlanan premium web siteniz, vizyonunuzu ve profesyonelliğinizi doğrudan kanıtlar ve fiyat/değer pazarlığını ortadan kaldırır.
+
+- Tüm Kanallarda Otomasyon
+Problem: Instagram DM veya WhatsApp'tan gelen yüzlerce mesaja tek tek yetişmek saatlerinizi alır.
+Çözüm: Kendi tarzınızda konuşan yapay zekayı kanallarınıza bağlayabilir, potansiyel danışanları doğrudan satın almaya yönlendirebilirsiniz.
 
 Kafanızda canlanması için şu örnek projeye bir göz atabilirsiniz: https://elifkaya-pt.vercel.app/
 
 Detayları ve sistemi konuşmak isterseniz bana bu mailden veya WhatsApp'tan ulaşabilirsiniz: +32 494 323 170
 
 Şimdiden iyi çalışmalar.
-Eren Can Güzelsu`,
+Eren Can`,
     `{{NAME}} Hocam merhaba,
 
-Ben Eren Can Güzelsu. Bilgisayar mühendisiyim. Uzun zamandır sporun içindeyim ve şu sıralar MacFit'te antrenman yapıyorum.
+Ben Eren Can. Kısa süreliğine Türkiye'ye gelmiştim, bu süre zarfında da antrenmanlarıma MacFit'te devam ediyorum.
 
 {{COMPLIMENT}} aslında çok daha geniş kitlelere ulaşıp işlerinizi otomatikleştirebileceğinizi düşünüyorum. Avrupa'da hocalar artık Instagram DM'lerine yetişmek yerine tüm potansiyel müşterilerini kendi profesyonel web sitelerine yönlendiriyor. Böylece hem daha prestijli duruyorlar hem de vakit kaybetmiyorlar.
 
-Sizin için hazırlayacağım sistem, "fiyat sorup" kaçanları filtreler, hazır program satışı yapmanızı sağlar ve size inanılmaz bir profesyonellik katar.
+Sizin için kuracağımız sistemle şu büyük kolaylıkları sağlıyoruz:
+
+- Zaman Kaybını Önleme
+Problem: Hocalara sürekli fiyat sorup kaybolan "ölü" potansiyel müşteriler gelir.
+Çözüm: Kuracağımız yapay zeka asistanı sıradan robotik cevaplar vermez. Fiyat sorup kaybolanları eler, sadece bütçesi uyan ciddi müşterileri takviminize yönlendirir.
+
+- Pasif Gelir (Uyurken Para Kazanma)
+Problem: PT'nin geliri sadece birebir ders verdiği saate bağlıdır.
+Çözüm: Sitenize bir 'Mağaza' bölümü ekleyerek, sizin daha önce hazırladığınız 4 haftalık programları PDF olarak satıp pasif gelir elde etmenizi sağlayabiliriz.
 
 Örnek olarak şu siteyi inceleyebilirsiniz: https://elifkaya-pt.vercel.app/
 
@@ -62,7 +83,7 @@ Eğer ilginizi çekerse, sizin için de benzer ama tamamen size özgü bir yapı
 WhatsApp üzerinden de konuşabiliriz: +32 494 323 170
 
 Kolaylıklar dilerim hocam, görüşmek üzere.
-Eren Can Güzelsu`
+Eren Can`
 ];
 
 async function run() {
