@@ -30,7 +30,7 @@ Sisteme ekleyeceğimiz 'Mağaza' bölümüyle 4 haftalık antrenman programları
 
 - Bölgesel Görünürlük (SEO)
 Sorun: Bölgenizde özel ders veya PT arayan birinin karşısına direkt olarak sadece büyük spor salonlarının çıkması.
-Çözüm: Size yapacağımız özel SEO çalışmasıyla, bulunduğunuz bölgedeki (örn: İstanbul PT) aramalarında ilk sıralarda yer alarak potansiyel müşterilerin doğrudan size ulaşmasını sağlıyoruz.
+Çözüm: Size yapacağımız özel SEO çalışmasıyla, bulunduğunuz bölgedeki (örn: İstanbul Kadıköy spor hocası) aramalarında ilk sıralarda yer alarak potansiyel müşterilerin doğrudan size ulaşmasını sağlıyoruz.
 
 - 7/24 Profesyonel Asistan
 Sizin tarzınızda eğitilmiş yapay zeka, gece yarısı bile gelse tüm soruları anında yanıtlar ve danışanları doğrudan paketinizi satın almaya yönlendirir.
@@ -59,7 +59,7 @@ Size özel hazırlanan premium web siteniz, vizyonunuzu ve profesyonelliğinizi 
 
 - Bölgesel Görünürlük (SEO)
 Sorun: Bölgenizde özel ders veya PT arayan birinin karşısına direkt olarak sadece büyük spor salonlarının çıkması.
-Çözüm: Size yapacağımız özel SEO çalışmasıyla, bulunduğunuz bölgedeki (örn: İstanbul PT) aramalarında ilk sıralarda yer alarak potansiyel müşterilerin doğrudan size ulaşmasını sağlıyoruz.
+Çözüm: Size yapacağımız özel SEO çalışmasıyla, bulunduğunuz bölgedeki (örn: İstanbul Kadıköy spor hocası) aramalarında ilk sıralarda yer alarak potansiyel müşterilerin doğrudan size ulaşmasını sağlıyoruz.
 
 - Uyurken Bile Satış
 Derste olduğunuzda veya uyurken bile web sitenizdeki mağaza üzerinden hazır programlarınız satılmaya ve pasif gelir getirmeye devam eder.
@@ -86,7 +86,7 @@ Sitenize bir 'Mağaza' bölümü ekleyerek, sizin daha önce hazırladığınız
 
 - Bölgesel Görünürlük (SEO)
 Sorun: Bölgenizde özel ders veya PT arayan birinin karşısına direkt olarak sadece büyük spor salonlarının çıkması.
-Çözüm: Size yapacağımız özel SEO çalışmasıyla, bulunduğunuz bölgedeki (örn: İstanbul PT) aramalarında ilk sıralarda yer alarak potansiyel müşterilerin doğrudan size ulaşmasını sağlıyoruz.
+Çözüm: Size yapacağımız özel SEO çalışmasıyla, bulunduğunuz bölgedeki (örn: İstanbul Kadıköy spor hocası) aramalarında ilk sıralarda yer alarak potansiyel müşterilerin doğrudan size ulaşmasını sağlıyoruz.
 
 - Kesintisiz Sosyal Medya Yönetimi
 Yapay zeka asistanı Instagram ve WhatsApp hesaplarınıza entegre olarak sizin adınıza 7/24 iletişim kurar ve tüm potansiyel satışları gerçeğe dönüştürür.
