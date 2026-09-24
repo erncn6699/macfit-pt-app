@@ -18,9 +18,9 @@ const EMAIL_BODIES = [
 
 Ben Eren Can Güzelsu. Bilgisayar mühendisiyim, normalde Belçika'da yaşıyorum ama kısa süreliğine Türkiye'ye geldim. Ben de yıllardır sporun içindeyim, buradayken antrenmanlar için MacFit'e yazıldım.
 
-Salonda gözlemlediğim kadarıyla Türkiye'deki antrenörlerin çoğunun kendine ait profesyonel bir web sitesi yok. Oysa Avrupa'da profesyonel PT'ler artık fiyat sorup kaybolanlarla vakit kaybetmiyor, tüm işlerini kendi web siteleri ve asistan araçlarıyla otomatik yönetiyorlar.
+{{COMPLIMENT}} teknolojiyi de arkanıza almanız gerektiğini düşündüm. Salonda gözlemlediğim kadarıyla Türkiye'deki antrenörlerin çoğunun kendine ait profesyonel bir web sitesi yok. Oysa Avrupa'da profesyonel PT'ler artık fiyat sorup kaybolanlarla vakit kaybetmiyor, tüm işlerini kendi web siteleri ve asistan araçlarıyla otomatik yönetiyorlar.
 
-Sizin gibi bu işi profesyonel yapan birinin de teknolojiyi arkasına alması gerektiğini düşündüm ve sadece size özel bir sistem hazırlayabileceğimi düşündüm. Bu sistemle:
+Sizin için de tamamen size özel bir sistem hazırlayabileceğimizi düşündüm. Bu sistemle:
 - Size sürekli fiyat sorup kaybolanlarla uğraşmazsınız.
 - Öğrencilerinize online ödeme ve taksit gibi kolaylıklar sunabilirsiniz.
 - Sadece birebir dersten değil, hazır PDF ve program satışlarıyla pasif gelir de elde edebilirsiniz.
@@ -37,7 +37,7 @@ Eren Can Güzelsu`,
 
 Ben Eren. Bilgisayar mühendisiyim, Belçika'da yaşıyorum. Türkiye'ye geldiğimde antrenmanlarım için MacFit'e gidiyorum.
 
-Avrupa'da PT'lerin işlerini nasıl profesyonelce yürüttüğünü gördükten sonra, buradaki antrenörlerin neden kendi web sitelerini ve dijital sistemlerini kullanmadığını merak ettim. Çoğu hoca DM'den gelen "fiyat nedir" sorularına cevap vermekle büyük vakit kaybediyor.
+{{COMPLIMENT}} dijital dünyada da çok daha görünür olmanız gerektiğini fark ettim. Avrupa'da PT'lerin işlerini nasıl profesyonelce yürüttüğünü gördükten sonra, buradaki antrenörlerin neden kendi web sitelerini ve dijital sistemlerini kullanmadığını merak ettim. Çoğu hoca DM'den gelen "fiyat nedir" sorularına cevap vermekle büyük vakit kaybediyor.
 
 Sizin için tamamen profesyonel, sadece ciddi danışanları filtreleyen ve hatta sizin adınıza hazır program satışı yapabilen bir sistem kurmayı çok isterim. Bu sayede ders saatlerinizin dışında da gelir elde etmeye devam edebilirsiniz.
 
@@ -51,7 +51,7 @@ Eren Can Güzelsu`,
 
 Ben Eren Can Güzelsu. Bilgisayar mühendisiyim. Uzun zamandır sporun içindeyim ve şu sıralar MacFit'te antrenman yapıyorum.
 
-Sizin gibi profesyonel antrenörlerin aslında çok daha geniş kitlelere ulaşıp işlerini otomatikleştirebileceğini düşünüyorum. Avrupa'da hocalar artık Instagram DM'lerine yetişmek yerine tüm potansiyel müşterilerini kendi profesyonel web sitelerine yönlendiriyor. Böylece hem daha prestijli duruyorlar hem de vakit kaybetmiyorlar.
+{{COMPLIMENT}} aslında çok daha geniş kitlelere ulaşıp işlerinizi otomatikleştirebileceğinizi düşünüyorum. Avrupa'da hocalar artık Instagram DM'lerine yetişmek yerine tüm potansiyel müşterilerini kendi profesyonel web sitelerine yönlendiriyor. Böylece hem daha prestijli duruyorlar hem de vakit kaybetmiyorlar.
 
 Sizin için hazırlayacağım sistem, "fiyat sorup" kaçanları filtreler, hazır program satışı yapmanızı sağlar ve size inanılmaz bir profesyonellik katar.
 
@@ -114,8 +114,12 @@ async function run() {
         const randomSubject = EMAIL_SUBJECTS[Math.floor(Math.random() * EMAIL_SUBJECTS.length)];
         const randomBody = EMAIL_BODIES[Math.floor(Math.random() * EMAIL_BODIES.length)];
 
+        const fallbackCompliment = "Profilinizi ve çalışmalarınızı incelediğimde alanınızdaki profesyonel duruşunuz çok dikkatimi çekti. Sizin gibi vizyoner bir antrenörün";
+        const complimentText = trainer.compliment ? trainer.compliment : fallbackCompliment;
+
         const subject = randomSubject.replace(/{{NAME}}/g, firstName);
-        const text = randomBody.replace(/{{NAME}}/g, firstName);
+        let text = randomBody.replace(/{{NAME}}/g, firstName);
+        text = text.replace(/{{COMPLIMENT}}/g, complimentText);
 
         try {
             console.log(`[${i+1}/${batch.length}] Gonderiliyor: ${trainer.name} <${trainer.email}>`);
