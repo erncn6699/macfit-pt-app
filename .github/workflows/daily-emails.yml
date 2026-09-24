@@ -29,8 +29,19 @@ jobs:
         env:
           SMTP_USER: ${{ secrets.SMTP_USER }}
           SMTP_PASS: ${{ secrets.SMTP_PASS }}
+          SMTP_HOST: ${{ secrets.SMTP_HOST }}
+          SMTP_PORT: ${{ secrets.SMTP_PORT }}
           LIMIT: 50
         run: node send-emails.js
+
+      - name: Run Follow-Up Script
+        working-directory: ./automation
+        env:
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_PASS: ${{ secrets.SMTP_PASS }}
+          SMTP_HOST: ${{ secrets.SMTP_HOST }}
+          SMTP_PORT: ${{ secrets.SMTP_PORT }}
+        run: node follow-up.js
 
       - name: Commit and Push DB Changes
         run: |
