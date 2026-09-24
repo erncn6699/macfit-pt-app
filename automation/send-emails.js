@@ -20,15 +20,16 @@ Ben Eren Can. Kısa süreliğine Türkiye'ye gelmiştim. Ben de yıllardır spor
 
 {{COMPLIMENT}} teknolojiyi de arkanıza almanız gerektiğini düşündüm. Salonda gözlemlediğim kadarıyla Türkiye'deki antrenörlerin çoğunun kendine ait profesyonel bir web sitesi yok. Oysa Avrupa'da profesyonel PT'ler artık "fiyat nedir" diye sorup kaybolanlarla vakit kaybetmiyor, tüm işlerini kendi web siteleri ve asistan araçlarıyla otomatik yönetiyorlar.
 
-Sizin için tamamen size özel bir sistem hazırlayabileceğimizi düşündüm. Bu sistemle şu problemleri çözüyoruz:
+Sizin için tamamen size özel bir sistem hazırlayabileceğimizi düşündüm. Bu sistemle elde edeceğiniz bazı avantajlar:
 
 - Zaman Kaybını Önleme
-Problem: Hocalara sürekli fiyat sorup kaybolan "ölü" potansiyel müşteriler gelir. Bu büyük vakit kaybıdır.
-Çözüm: Kuracağımız yapay zeka asistanı sıradan robotik cevaplar vermez. Fiyat sorup kaybolanları eler, sadece bütçesi uyan ciddi müşterileri size yönlendirir.
+Kuracağımız yapay zeka asistanı Instagram DM ve WhatsApp'ınıza entegre çalışır. Fiyat sorup kaybolan "ölü" potansiyel müşterileri eler, sadece bütçesi uyan ciddi danışanları size yönlendirir.
 
 - Pasif Gelir (Uyurken Para Kazanma)
-Problem: PT'nin geliri sadece birebir ders verdiği saate bağlıdır.
-Çözüm: Sisteme ekleyeceğimiz 'Mağaza' bölümüyle 4 haftalık antrenman programları, beslenme PDF'leri gibi hazır kaynaklar satarak siz dersteyken bile gelir elde edebilirsiniz.
+Sisteme ekleyeceğimiz 'Mağaza' bölümüyle 4 haftalık antrenman programları, beslenme PDF'leri gibi hazır kaynaklar satarak siz dersteyken bile gelir elde edebilirsiniz.
+
+- 7/24 Profesyonel Asistan
+Sizin tarzınızda eğitilmiş yapay zeka, gece yarısı bile gelse tüm soruları anında yanıtlar ve danışanları doğrudan paketinizi satın almaya yönlendirir.
 
 Örnek olması için bizzat hazırladığım şu demo siteye bir göz atın isterseniz: https://elifkaya-pt.vercel.app/
 
@@ -44,15 +45,16 @@ Ben Eren Can. Kısa süreliğine Türkiye'ye geldim ve geldiğimde antrenmanlar�
 
 {{COMPLIMENT}} dijital dünyada da çok daha görünür olmanız gerektiğini fark ettim. Avrupa'da PT'lerin işlerini nasıl profesyonelce yürüttüğünü gördükten sonra, buradaki antrenörlerin neden kendi web sitelerini kullanmadığını merak ettim. Çoğu hoca DM'den gelen "fiyat nedir" sorularına cevap vermekle büyük vakit kaybediyor.
 
-Sizin için tamamen profesyonel, sadece ciddi danışanları filtreleyen bir sistem kurmayı çok isterim. Bu sistem şu temel problemleri çözüyor:
-
-- Prestij ve Markalaşma
-Problem: Öğrenciler sosyal medya üzerinden alınan hizmetleri bazen basit görebiliyor.
-Çözüm: Size özel hazırlanan premium web siteniz, vizyonunuzu ve profesyonelliğinizi doğrudan kanıtlar ve fiyat/değer pazarlığını ortadan kaldırır.
+Sizin için tamamen profesyonel, sadece ciddi danışanları filtreleyen bir sistem kurmayı çok isterim. Bu sistemin size sağlayacağı kolaylıklar:
 
 - Tüm Kanallarda Otomasyon
-Problem: Instagram DM veya WhatsApp'tan gelen yüzlerce mesaja tek tek yetişmek saatlerinizi alır.
-Çözüm: Kendi tarzınızda konuşan yapay zekayı kanallarınıza bağlayabilir, potansiyel danışanları doğrudan satın almaya yönlendirebilirsiniz.
+Instagram DM veya WhatsApp'tan gelen yüzlerce mesaja tek tek yetişmek yerine, yapay zeka asistanınızı bu kanallara bağlayarak tüm süreci otomatikleştirebilirsiniz.
+
+- Prestij ve Markalaşma
+Size özel hazırlanan premium web siteniz, vizyonunuzu ve profesyonelliğinizi doğrudan kanıtlar. Fiyat/değer pazarlığını ortadan kaldırır.
+
+- Uyurken Bile Satış
+Derste olduğunuzda veya uyurken bile web sitenizdeki mağaza üzerinden hazır programlarınız satılmaya ve pasif gelir getirmeye devam eder.
 
 Kafanızda canlanması için şu örnek projeye bir göz atabilirsiniz: https://elifkaya-pt.vercel.app/
 
@@ -69,12 +71,13 @@ Ben Eren Can. Kısa süreliğine Türkiye'ye gelmiştim, bu süre zarfında da a
 Sizin için kuracağımız sistemle şu büyük kolaylıkları sağlıyoruz:
 
 - Zaman Kaybını Önleme
-Problem: Hocalara sürekli fiyat sorup kaybolan "ölü" potansiyel müşteriler gelir.
-Çözüm: Kuracağımız yapay zeka asistanı sıradan robotik cevaplar vermez. Fiyat sorup kaybolanları eler, sadece bütçesi uyan ciddi müşterileri takviminize yönlendirir.
+Kuracağımız yapay zeka asistanı sıradan robotik cevaplar vermez. Sizin dilinizden konuşarak fiyat sorup kaybolanları eler ve sadece gerçek müşterileri takviminize yönlendirir.
 
-- Pasif Gelir (Uyurken Para Kazanma)
-Problem: PT'nin geliri sadece birebir ders verdiği saate bağlıdır.
-Çözüm: Sitenize bir 'Mağaza' bölümü ekleyerek, sizin daha önce hazırladığınız 4 haftalık programları PDF olarak satıp pasif gelir elde etmenizi sağlayabiliriz.
+- Pasif Gelir Kapısı
+Sitenize bir 'Mağaza' bölümü ekleyerek, sizin daha önce hazırladığınız 4 haftalık programları PDF olarak satıp zahmetsizce pasif gelir elde etmenizi sağlayabiliriz.
+
+- Kesintisiz Sosyal Medya Yönetimi
+Yapay zeka asistanı Instagram ve WhatsApp hesaplarınıza entegre olarak sizin adınıza 7/24 iletişim kurar ve tüm potansiyel satışları gerçeğe dönüştürür.
 
 Örnek olarak şu siteyi inceleyebilirsiniz: https://elifkaya-pt.vercel.app/
 
