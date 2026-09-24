@@ -31,7 +31,7 @@ Sisteme ekleyeceğimiz 'Mağaza' bölümüyle 4 haftalık antrenman programları
 - 7/24 Profesyonel Asistan
 Sizin tarzınızda eğitilmiş yapay zeka, gece yarısı bile gelse tüm soruları anında yanıtlar ve danışanları doğrudan paketinizi satın almaya yönlendirir.
 
-Örnek olması için bizzat hazırladığım şu demo siteye bir göz atın isterseniz: https://elifkaya-pt.vercel.app/
+Örnek olması için bizzat hazırladığım şu demo siteye bir göz atın isterseniz: https://ornekptsitem.erencanintelligenz.com/
 
 Siteyi kurup size gösterdiğimde içinize sinmeyen bir şey olursa zaten hiçbir beklentim yok. Eğer örnek site hoşunuza gittiyse ve detayları konuşmak isterseniz bu maile dönüş yapmanız yeterli.
 
@@ -56,7 +56,7 @@ Size özel hazırlanan premium web siteniz, vizyonunuzu ve profesyonelliğinizi 
 - Uyurken Bile Satış
 Derste olduğunuzda veya uyurken bile web sitenizdeki mağaza üzerinden hazır programlarınız satılmaya ve pasif gelir getirmeye devam eder.
 
-Kafanızda canlanması için şu örnek projeye bir göz atabilirsiniz: https://elifkaya-pt.vercel.app/
+Kafanızda canlanması için şu örnek projeye bir göz atabilirsiniz: https://ornekptsitem.erencanintelligenz.com/
 
 Detayları ve sistemi konuşmak isterseniz bana bu mailden veya WhatsApp'tan ulaşabilirsiniz: +32 494 323 170
 
@@ -79,7 +79,7 @@ Sitenize bir 'Mağaza' bölümü ekleyerek, sizin daha önce hazırladığınız
 - Kesintisiz Sosyal Medya Yönetimi
 Yapay zeka asistanı Instagram ve WhatsApp hesaplarınıza entegre olarak sizin adınıza 7/24 iletişim kurar ve tüm potansiyel satışları gerçeğe dönüştürür.
 
-Örnek olarak şu siteyi inceleyebilirsiniz: https://elifkaya-pt.vercel.app/
+Örnek olarak şu siteyi inceleyebilirsiniz: https://ornekptsitem.erencanintelligenz.com/
 
 Eğer ilginizi çekerse, sizin için de benzer ama tamamen size özgü bir yapı kurabiliriz. İnceledikten sonra bana dönerseniz çok sevinirim.
 
