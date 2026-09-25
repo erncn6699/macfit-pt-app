@@ -3,7 +3,7 @@ const fs = require('fs');
 const path = require('path');
 const imaps = require('imap-simple');
 
-const DB_FILE = path.join(__dirname, '..', 'data', 'trainers-db.json');
+const DB_FILE = path.join(__dirname, 'trainers-db.json');
 
 const config = {
     imap: {

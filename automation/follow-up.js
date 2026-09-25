@@ -3,7 +3,7 @@ const fs = require('fs');
 const path = require('path');
 const nodemailer = require('nodemailer');
 
-const DB_FILE = path.join(__dirname, '..', 'data', 'trainers-db.json');
+const DB_FILE = path.join(__dirname, 'trainers-db.json');
 const FIREBASE_URL = "https://firestore.googleapis.com/v1/projects/macfit-pt-app/databases/(default)/documents/clicks";
 
 // Email Templates
