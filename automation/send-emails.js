@@ -17,7 +17,7 @@ const EMAIL_SUBJECTS = [
 const EMAIL_BODIES = [
     `Merhaba {{NAME}} Hocam,
 
-Ben Eren Can. Normalde Belçika'da yaşıyorum ama kısa süreliğine Türkiye'ye gelmiştim. Ben de yıllardır sporun içindeyim, buradayken antrenmanlar için MacFit'e yazıldım.
+Ben Eren Can. Almanya Duisburg Üniversitesi'nde Bilgisayar Mühendisliği, Yazılım Geliştirme ve Yapay Zeka üzerine eğitim aldım. Zaten kendim de antrenmanlarım için sürekli MacFit'e gidiyorum.
 
 {{COMPLIMENT}} teknolojiyi de arkanıza almanız gerektiğini düşündüm. Salonda gözlemlediğim kadarıyla Türkiye'deki antrenörlerin çoğunun kendine ait profesyonel bir web sitesi yok. Oysa Avrupa'da profesyonel PT'ler artık "fiyat nedir" diye sorup kaybolanlarla vakit kaybetmiyor, tüm işlerini kendi web siteleri ve asistan araçlarıyla otomatik yönetiyorlar.
 
@@ -39,13 +39,13 @@ Sizin tarzınızda eğitilmiş yapay zeka, gece yarısı bile gelse tüm sorular
 
 Siteyi kurup size gösterdiğimde içinize sinmeyen bir şey olursa zaten hiçbir beklentim yok. Eğer örnek site hoşunuza gittiyse ve detayları konuşmak isterseniz bu maile dönüş yapmanız yeterli.
 
-Bana WhatsApp'tan da ulaşabilirsiniz: +32 494 323 170
+Bana WhatsApp'tan da ulaşabilirsiniz: 0540 336 66 99
 
 İyi çalışmalar dilerim hocam, kolay gelsin.
 Eren Can`,
     `Selamlar {{NAME}} Hocam,
 
-Ben Eren Can. Belçika'da yaşıyorum, kısa süreliğine Türkiye'ye geldim ve geldiğimde antrenmanlarım için MacFit'e gidiyorum.
+Ben Eren Can. Almanya Duisburg Üniversitesi'nde Bilgisayar Mühendisliği, Yazılım Geliştirme ve Yapay Zeka üzerine eğitim aldım. Kendi spor ve antrenmanlarım için de aktif olarak MacFit'e gidiyorum.
 
 {{COMPLIMENT}} dijital dünyada da çok daha görünür olmanız gerektiğini fark ettim. Avrupa'da PT'lerin işlerini nasıl profesyonelce yürüttüğünü gördükten sonra, buradaki antrenörlerin neden kendi web sitelerini kullanmadığını merak ettim. Çoğu hoca DM'den gelen "fiyat nedir" sorularına cevap vermekle büyük vakit kaybediyor.
 
@@ -65,13 +65,13 @@ Derste olduğunuzda veya uyurken bile web sitenizdeki mağaza üzerinden hazır 
 
 Kafanızda canlanması için şu örnek projeye bir göz atabilirsiniz: https://ornekptsitem.erencanintelligenz.com/?ref={{EMAIL}}
 
-Detayları ve sistemi konuşmak isterseniz bana bu mailden veya WhatsApp'tan ulaşabilirsiniz: +32 494 323 170
+Detayları ve sistemi konuşmak isterseniz bana bu mailden veya WhatsApp'tan ulaşabilirsiniz: 0540 336 66 99
 
 Şimdiden iyi çalışmalar.
 Eren Can`,
     `{{NAME}} Hocam merhaba,
 
-Ben Eren Can. Belçika'da yaşıyorum ama kısa süreliğine Türkiye'ye gelmiştim, bu süre zarfında da antrenmanlarıma MacFit'te devam ediyorum.
+Ben Eren Can. Almanya Duisburg Üniversitesi'nde Bilgisayar Mühendisliği, Yazılım Geliştirme ve Yapay Zeka üzerine eğitim aldım. Zaten ben de kendi antrenmanlarıma sürekli MacFit'te devam ediyorum.
 
 {{COMPLIMENT}} aslında çok daha geniş kitlelere ulaşıp işlerinizi otomatikleştirebileceğinizi düşünüyorum. Avrupa'da hocalar artık Instagram DM'lerine yetişmek yerine tüm potansiyel müşterilerini kendi profesyonel web sitelerine yönlendiriyor. Böylece hem daha prestijli duruyorlar hem de vakit kaybetmiyorlar.
 
@@ -93,7 +93,7 @@ Yapay zeka asistanı Instagram ve WhatsApp hesaplarınıza entegre olarak sizin 
 
 Eğer ilginizi çekerse, sizin için de benzer ama tamamen size özgü bir yapı kurabiliriz. İnceledikten sonra bana dönerseniz çok sevinirim.
 
-WhatsApp üzerinden de konuşabiliriz: +32 494 323 170
+WhatsApp üzerinden de konuşabiliriz: 0540 336 66 99
 
 Kolaylıklar dilerim hocam, görüşmek üzere.
 Eren Can`

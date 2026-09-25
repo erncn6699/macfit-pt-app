@@ -26,7 +26,7 @@ Geçtiğimiz günlerde demo sitemizi incelediğinizi gördüm, ancak sanırım a
 
 Sistemin sizin için ne kadar faydalı olacağını bildiğimden, ilk aya özel %30 indirim veya ekstra SEO paketi hediye etmek isterim. Siteniz uyurken bile size danışan bulmaya devam edecek bir makineye dönüşecek.
 
-Detayları konuşmak isterseniz lütfen çekinmeyin, bu e-postayı yanıtlamanız veya WhatsApp'tan ulaşmanız yeterlidir.
+Detayları konuşmak isterseniz lütfen çekinmeyin, bu e-postayı yanıtlamanız veya 0540 336 66 99 numarasından WhatsApp'tan ulaşmanız yeterlidir.
 
 Görüşmek üzere!`;
 
