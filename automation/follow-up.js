@@ -95,12 +95,16 @@ async function runFollowUp() {
                 let text = CAMPAIGN_BODY.replace(/{{NAME}}/g, firstName);
                 text = text.replace(/{{EMAIL}}/g, encodeURIComponent(trainer.email));
 
+                let htmlText = text.replace(/\n/g, '<br>');
+                htmlText = htmlText.replace(/(https?:\/\/[^\s]+)/g, '<a href="$1" target="_blank" style="color: #0066cc; text-decoration: underline;">$1</a>');
+
                 try {
                     await transporter.sendMail({
-                        from: `"Eren Can (Intelligenz)" <${process.env.SMTP_USER}>`,
+                        from: `"Eren Can" <${process.env.SMTP_USER}>`,
                         to: trainer.email,
                         subject: CAMPAIGN_SUBJECT.replace(/{{NAME}}/g, firstName),
-                        text: text
+                        text: text,
+                        html: htmlText
                     });
                     trainer.campaignSent = true;
                     trainer.campaignSentAt = new Date().toISOString();
@@ -117,12 +121,16 @@ async function runFollowUp() {
                 let text = REMINDER_BODY.replace(/{{NAME}}/g, firstName);
                 text = text.replace(/{{EMAIL}}/g, encodeURIComponent(trainer.email));
 
+                let htmlText = text.replace(/\n/g, '<br>');
+                htmlText = htmlText.replace(/(https?:\/\/[^\s]+)/g, '<a href="$1" target="_blank" style="color: #0066cc; text-decoration: underline;">$1</a>');
+
                 try {
                     await transporter.sendMail({
-                        from: `"Eren Can (Intelligenz)" <${process.env.SMTP_USER}>`,
+                        from: `"Eren Can" <${process.env.SMTP_USER}>`,
                         to: trainer.email,
                         subject: REMINDER_SUBJECT.replace(/{{NAME}}/g, firstName),
-                        text: text
+                        text: text,
+                        html: htmlText
                     });
                     trainer.reminderSent = true;
                     trainer.reminderSentAt = new Date().toISOString();
