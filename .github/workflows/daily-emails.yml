@@ -4,6 +4,8 @@ on:
   schedule:
     - cron: '0 5 * * *' # 05:00 UTC -> 08:00 TSİ
   workflow_dispatch: # Manuel tetikleme için
+  repository_dispatch:
+    types: [trigger-daily-emails] # Dışarıdan %100 dakik tetiklemek için webhook
 
 jobs:
   send-emails:
