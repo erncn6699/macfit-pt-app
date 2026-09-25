@@ -7,61 +7,58 @@ const imaps = require('imap-simple');
 const DB_FILE = path.join(__dirname, 'trainers-db.json');
 const MAX_EMAILS_PER_RUN = process.env.LIMIT ? parseInt(process.env.LIMIT) : 50; // Her calismada maksimum kac kisiye atilacak
 
-// Sabit mail sablonu. NOT: {{NAME}} parametresi kod tarafindan gercek isimle degistirilecek.
 const EMAIL_SUBJECTS = [
-    "{{NAME}} hocam - sizinle çalışmayı çok isterim",
-    "Selamlar {{NAME}} hocam, bir önerim var",
-    "MacFit'ten Eren Can - {{NAME}} hocam selamlar"
+    "{{NAME}} Hocam, sizi ileriye taşıyacak bir fikrimi paylaşmak isterim",
+    "Selamlar {{NAME}} Hocam, yapay zeka ile işlerinizi otomatikleştirelim",
+    "MacFit'ten Eren Can - {{NAME}} Hocam merhaba"
 ];
 
 const EMAIL_BODIES = [
     `Merhaba {{NAME}} Hocam,
 
-Ben Eren Can. Almanya Duisburg Üniversitesi'nde Bilgisayar Mühendisliği, Yazılım Geliştirme ve Yapay Zeka üzerine eğitim aldım. Zaten kendim de antrenmanlarım için sürekli MacFit'e gidiyorum.
+Ben Eren Can. Almanya Duisburg Üniversitesi'nde Bilgisayar Mühendisliği, Yazılım Geliştirme ve Yapay Zeka üzerine lisans eğitimimi tamamladım. Şu anda yazılım üzerine profesyonel projeler hazırlıyorum. Kendim de antrenmanlarımı MacFit'te yaptığım için siz değerli hocalara ulaşma imkanı buldum.
 
-{{COMPLIMENT}} teknolojiyi de arkanıza almanız gerektiğini düşündüm. Salonda gözlemlediğim kadarıyla Türkiye'deki antrenörlerin çoğunun kendine ait profesyonel bir web sitesi yok. Oysa Avrupa'da profesyonel PT'ler artık "fiyat nedir" diye sorup kaybolanlarla vakit kaybetmiyor, tüm işlerini kendi web siteleri ve asistan araçlarıyla otomatik yönetiyorlar.
+{{COMPLIMENT}} teknolojiyi de arkanıza almanız gerektiğini düşündüm. Avrupa'da profesyonel PT'ler artık DM'den "fiyat nedir" diye sorup kaybolanlarla vakit kaybetmiyor, tüm işlerini kendi web siteleri ve yapay zeka asistanlarıyla otomatik yönetiyorlar.
 
 Sizin için tamamen size özel bir sistem hazırlayabileceğimizi düşündüm. Bu sistemle elde edeceğiniz bazı avantajlar:
 
-- Zaman Kaybını Önleme
-Kuracağımız yapay zeka asistanı Instagram DM ve WhatsApp'ınıza entegre çalışır. Fiyat sorup kaybolan "ölü" potansiyel müşterileri eler, sadece bütçesi uyan ciddi danışanları size yönlendirir.
+- 7/24 Özel Yapay Zeka Asistanı
+Tamamen size özel eğitilmiş ve geliştirilmiş yapay zeka asistanınızı tarafınıza atıyoruz. İster web sayfanızdan, ister Instagram veya WhatsApp gibi sosyal medya kanallarından gelen mesajlarda; asistanınız sizin adınıza görüşmeler sağlayıp, sizinle gerçekten çalışmak isteyen ciddi kişileri belirliyor ve sizin onayınızla randevu oluşturuyor.
+
+- Zaman Kaybını Önleme ve Filtreleme
+Fiyat sorup kaybolan "ölü" potansiyel müşterilere tek tek laf anlatmakla vakit kaybetmezsiniz. Asistanınız sadece bütçesi ve amacı uyan ciddi danışanları size yönlendirir.
 
 - Pasif Gelir (Uyurken Para Kazanma)
-Sisteme ekleyeceğimiz 'Mağaza' bölümüyle 4 haftalık antrenman programları, beslenme PDF'leri gibi hazır kaynaklar satarak siz dersteyken bile gelir elde edebilirsiniz.
+Sisteme ekleyeceğimiz 'Mağaza' bölümüyle 4 haftalık antrenman programları, beslenme planları gibi hazır kaynaklar satarak siz dersteyken bile gelir elde edebilirsiniz.
 
-- Bölgesel Görünürlük (SEO)
-Size yapacağımız özel SEO çalışmasıyla bulunduğunuz bölgedeki (örn: İstanbul Kadıköy spor) aramalarında ilk sıralarda yer alarak potansiyel müşterilerin doğrudan size ulaşmasını sağlıyoruz.
-
-- 7/24 Profesyonel Asistan
-Sizin tarzınızda eğitilmiş yapay zeka, gece yarısı bile gelse tüm soruları anında yanıtlar ve danışanları doğrudan paketinizi satın almaya yönlendirir.
+- Otomatik Müşteri Takibi (Yeniden Pazarlama)
+Sizin için oluşturduğumuz veritabanıyla; fiyat sorup kararını erteleyen veya sadece adres soran kişileri belirliyoruz. Yapay zeka asistanınız belirli aralıklarla bu kişilerle tekrar iletişime geçerek (mail veya numaranızdan mesaj yoluyla) onları satışa dönüştürüyor.
 
 Örnek olması için bizzat hazırladığım şu demo siteye bir göz atın isterseniz: https://ornekptsitem.erencanintelligenz.com/?ref={{EMAIL}}
 
-Siteyi kurup size gösterdiğimde içinize sinmeyen bir şey olursa zaten hiçbir beklentim yok. Eğer örnek site hoşunuza gittiyse ve detayları konuşmak isterseniz bu maile dönüş yapmanız yeterli.
+Eğer örnek site hoşunuza gittiyse ve detayları konuşmak isterseniz bu maile dönüş yapmanız yeterli.
 
-Bana WhatsApp'tan da ulaşabilirsiniz: 0540 336 66 99
+Bana doğrudan WhatsApp'tan da ulaşabilirsiniz: 0540 336 66 99
 
 İyi çalışmalar dilerim hocam, kolay gelsin.
 Eren Can`,
+    
     `Selamlar {{NAME}} Hocam,
 
-Ben Eren Can. Almanya Duisburg Üniversitesi'nde Bilgisayar Mühendisliği, Yazılım Geliştirme ve Yapay Zeka üzerine eğitim aldım. Kendi spor ve antrenmanlarım için de aktif olarak MacFit'e gidiyorum.
+Ben Eren Can. Almanya Duisburg Üniversitesi'nde Bilgisayar Mühendisliği, Yazılım Geliştirme ve Yapay Zeka üzerine lisans eğitimimi tamamladım. Şu anda aktif olarak yazılım projeleri hazırlıyorum. Kendi antrenmanlarımı da MacFit'te yaptığım için sizin gibi değerli profesyonellere doğrudan ulaşma fırsatı buldum.
 
-{{COMPLIMENT}} dijital dünyada da çok daha görünür olmanız gerektiğini fark ettim. Avrupa'da PT'lerin işlerini nasıl profesyonelce yürüttüğünü gördükten sonra, buradaki antrenörlerin neden kendi web sitelerini kullanmadığını merak ettim. Çoğu hoca DM'den gelen "fiyat nedir" sorularına cevap vermekle büyük vakit kaybediyor.
+{{COMPLIMENT}} dijital dünyada da çok daha görünür olup iş yükünüzü hafifletmeniz gerektiğini fark ettim. Çoğu hoca DM'den gelen "fiyat nedir" sorularına cevap vermekle büyük vakit kaybediyor.
 
-Sizin için tamamen profesyonel, sadece ciddi danışanları filtreleyen bir sistem kurmayı çok isterim. Bu sistemin size sağlayacağı kolaylıklar:
+Sizin için kuracağımız yapay zeka destekli profesyonel sistemin size sağlayacağı kolaylıklar:
 
-- Tüm Kanallarda Otomasyon
-Instagram DM veya WhatsApp'tan gelen yüzlerce mesaja tek tek yetişmek yerine, yapay zeka asistanınızı bu kanallara bağlayarak tüm süreci otomatikleştirebilirsiniz.
+- 7/24 Özel Yapay Zeka Asistanı
+Tamamen size özel eğitilmiş yapay zeka asistanınız; web sayfanız, Instagram veya WhatsApp üzerinden sizin adınıza 7/24 görüşmeler sağlar. Sizinle gerçekten çalışmak isteyenleri belirler ve sizin onayınızla randevu oluşturur.
 
-- Prestij ve Markalaşma
-Size özel hazırlanan premium web siteniz, vizyonunuzu ve profesyonelliğinizi doğrudan kanıtlar. Fiyat/değer pazarlığını ortadan kaldırır.
+- Otomatik Müşteri Takibi ve Veri Havuzu
+Size sadece fiyat sorup kararını erteleyen potansiyel müşteriler için bir veri havuzu oluşturuyoruz. Asistanınız belirli aralıklarla bu kişilerle otomatik olarak (mail/mesaj) tekrar iletişime geçerek onları kazanmanızı sağlıyor.
 
-- Bölgesel Görünürlük (SEO)
-Size yapacağımız özel SEO çalışmasıyla bulunduğunuz bölgedeki (örn: İstanbul Kadıköy spor) aramalarında ilk sıralarda yer alarak potansiyel müşterilerin doğrudan size ulaşmasını sağlıyoruz.
-
-- Uyurken Bile Satış
-Derste olduğunuzda veya uyurken bile web sitenizdeki mağaza üzerinden hazır programlarınız satılmaya ve pasif gelir getirmeye devam eder.
+- Prestij, Markalaşma ve Pasif Gelir
+Size özel hazırlanan premium web siteniz, vizyonunuzu doğrudan kanıtlar. Ayrıca mağaza bölümünden hazır PDF programlarınızı satarak uyurken bile gelir elde etmenizi sağlar.
 
 Kafanızda canlanması için şu örnek projeye bir göz atabilirsiniz: https://ornekptsitem.erencanintelligenz.com/?ref={{EMAIL}}
 
@@ -69,27 +66,25 @@ Detayları ve sistemi konuşmak isterseniz bana bu mailden veya WhatsApp'tan ula
 
 Şimdiden iyi çalışmalar.
 Eren Can`,
+
     `{{NAME}} Hocam merhaba,
 
-Ben Eren Can. Almanya Duisburg Üniversitesi'nde Bilgisayar Mühendisliği, Yazılım Geliştirme ve Yapay Zeka üzerine eğitim aldım. Zaten ben de kendi antrenmanlarıma sürekli MacFit'te devam ediyorum.
+Ben Eren Can. Almanya Duisburg Üniversitesi'nde Bilgisayar Mühendisliği, Yazılım Geliştirme ve Yapay Zeka üzerine lisans eğitimimi tamamladım. Şu an yazılım projeleri geliştiriyorum ve kendi antrenmanlarımı da MacFit'te yaptığım için siz değerli eğitmenlere ulaşma şansım oldu.
 
-{{COMPLIMENT}} aslında çok daha geniş kitlelere ulaşıp işlerinizi otomatikleştirebileceğinizi düşünüyorum. Avrupa'da hocalar artık Instagram DM'lerine yetişmek yerine tüm potansiyel müşterilerini kendi profesyonel web sitelerine yönlendiriyor. Böylece hem daha prestijli duruyorlar hem de vakit kaybetmiyorlar.
+{{COMPLIMENT}} aslında çok daha geniş kitlelere ulaşıp işlerinizi yapay zeka ile otomatikleştirebileceğinizi düşünüyorum. Avrupa'da hocalar artık Instagram DM'lerine yetişmek yerine tüm potansiyel müşterilerini kendi yapay zeka asistanlarına yönlendiriyor.
 
 Sizin için kuracağımız sistemle şu büyük kolaylıkları sağlıyoruz:
 
-- Zaman Kaybını Önleme
-Kuracağımız yapay zeka asistanı sıradan robotik cevaplar vermez. Sizin dilinizden konuşarak fiyat sorup kaybolanları eler ve sadece gerçek müşterileri takviminize yönlendirir.
+- 7/24 Sosyal Medya & Web Asistanı
+Tamamen size özel eğitilmiş asistanınız; web siteniz, Instagram ve WhatsApp'ınızda sizin adınıza görüşmeler yapar. Sadece fiyat soranları eler, gerçekten çalışmak isteyen ciddi danışanları belirleyip randevularınızı oluşturur.
 
-- Pasif Gelir Kapısı
-Sitenize bir 'Mağaza' bölümü ekleyerek, sizin daha önce hazırladığınız 4 haftalık programları PDF olarak satıp zahmetsizce pasif gelir elde etmenizi sağlayabiliriz.
+- Akıllı Müşteri Takibi
+Sadece bilgi alıp kararını erteleyen kişiler için özel veriler oluşturuyoruz. Asistanınız belli aralıklarla bu kişilere otomatik olarak kendini hatırlatarak (mesaj veya mail ile) satış oranınızı artırır.
 
-- Bölgesel Görünürlük (SEO)
-Size yapacağımız özel SEO çalışmasıyla bulunduğunuz bölgedeki (örn: İstanbul Kadıköy spor) aramalarında ilk sıralarda yer alarak potansiyel müşterilerin doğrudan size ulaşmasını sağlıyoruz.
+- Kesintisiz Pasif Gelir
+Sitenize bir 'Mağaza' bölümü ekleyerek, sizin daha önce hazırladığınız programları PDF olarak satıp zahmetsizce pasif gelir elde etmenizi sağlayabiliriz.
 
-- Kesintisiz Sosyal Medya Yönetimi
-Yapay zeka asistanı Instagram ve WhatsApp hesaplarınıza entegre olarak sizin adınıza 7/24 iletişim kurar ve tüm potansiyel satışları gerçeğe dönüştürür.
-
-Örnek olarak şu siteyi inceleyebilirsiniz: https://ornekptsitem.erencanintelligenz.com/?ref={{EMAIL}}
+Örnek olarak şu demo siteyi inceleyebilirsiniz: https://ornekptsitem.erencanintelligenz.com/?ref={{EMAIL}}
 
 Eğer ilginizi çekerse, sizin için de benzer ama tamamen size özgü bir yapı kurabiliriz. İnceledikten sonra bana dönerseniz çok sevinirim.
 
