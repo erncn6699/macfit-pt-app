@@ -170,7 +170,7 @@ async function run() {
         const randomSubject = EMAIL_SUBJECTS[Math.floor(Math.random() * EMAIL_SUBJECTS.length)];
         const randomBody = EMAIL_BODIES[Math.floor(Math.random() * EMAIL_BODIES.length)];
 
-        const fallbackCompliment = "Profilinizi ve çalışmalarınızı incelediğimde alanınızdaki profesyonel duruşunuz çok dikkatimi çekti. Sizin gibi vizyoner bir antrenörün";
+        const fallbackCompliment = "Profilinizi detaylı inceleme fırsatım oldu; alanınızdaki profesyonel duruşunuz, sahip olduğunuz değerli sertifikalarınız, uzmanlık alanlarınız ve bugüne kadarki başarılarınız gerçekten çok dikkatimi çekti. Sizin gibi vizyoner bir antrenörün";
         const complimentText = trainer.compliment ? trainer.compliment : fallbackCompliment;
 
         const subject = randomSubject.replace(/{{NAME}}/g, firstName);
