@@ -2,6 +2,7 @@ require('dotenv').config();
 const fs = require('fs');
 const path = require('path');
 const nodemailer = require('nodemailer');
+const imaps = require('imap-simple');
 
 const DB_FILE = path.join(__dirname, 'trainers-db.json');
 const MAX_EMAILS_PER_RUN = process.env.LIMIT ? parseInt(process.env.LIMIT) : 50; // Her calismada maksimum kac kisiye atilacak
@@ -138,6 +139,24 @@ async function run() {
         process.exit(1);
     }
 
+    let imapConnection;
+    try {
+        const imapConfig = {
+            imap: {
+                user: process.env.SMTP_USER,
+                password: process.env.SMTP_PASS,
+                host: process.env.SMTP_HOST.replace('smtp', 'imap'),
+                port: 993,
+                tls: true,
+                authTimeout: 5000
+            }
+        };
+        imapConnection = await imaps.connect(imapConfig);
+        console.log("IMAP baglantisi basarili (Giden Kutusu senkronizasyonu icin).");
+    } catch (err) {
+        console.error("IMAP baglanti hatasi (mailler kopyalanamayacak):", err.message);
+    }
+
     for (let i = 0; i < batch.length; i++) {
         const trainer = batch[i];
         
@@ -170,6 +189,16 @@ async function run() {
             trainer.sentAt = new Date().toISOString();
             fs.writeFileSync(DB_FILE, JSON.stringify(trainers, null, 2));
             
+            // Kopyayi Giden Kutusuna kaydet
+            if (imapConnection) {
+                const rawMessage = `From: "Eren Can" <${process.env.SMTP_USER}>\r\nTo: ${trainer.email}\r\nSubject: ${subject}\r\nDate: ${new Date().toUTCString()}\r\n\r\n${text}`;
+                try {
+                    await imapConnection.append(rawMessage, { mailbox: 'INBOX.Sent', flags: ['\\Seen'] });
+                } catch (e) {
+                    console.error("  --> IMAP kopyalama hatasi:", e.message);
+                }
+            }
+            
             console.log(`  --> Basarili.`);
             
             // 5 seconds delay to prevent spam limits
@@ -179,6 +208,9 @@ async function run() {
         }
     }
     
+    if (imapConnection) {
+        imapConnection.end();
+    }
     console.log("\nBu seferlik gonderim tamamlandi.");
 }
 
