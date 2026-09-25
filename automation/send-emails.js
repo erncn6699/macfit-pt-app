@@ -25,6 +25,9 @@ Sizin için tamamen size özel bir sistem hazırlayabileceğimizi düşündüm. 
 - 7/24 Özel Yapay Zeka Asistanı
 Tamamen size özel eğitilmiş ve geliştirilmiş yapay zeka asistanınızı tarafınıza atıyoruz. İster web sayfanızdan, ister Instagram veya WhatsApp gibi sosyal medya kanallarından gelen mesajlarda; asistanınız sizin adınıza görüşmeler sağlayıp, sizinle gerçekten çalışmak isteyen ciddi kişileri belirliyor ve sizin onayınızla randevu oluşturuyor.
 
+- Bölgesel Görünürlük (Özel SEO Çalışması)
+Size özel yapacağımız SEO çalışmasıyla, bulunduğunuz bölgede Google'a sadece 'spor' dahi yazılsa en üst sıralarda çıkmanızı sağlıyoruz. Birçok spor salonundan bile önce isminizin görünmesiyle potansiyel danışanlarınızın size ulaşması çok daha kolaylaşacak.
+
 - Zaman Kaybını Önleme ve Filtreleme
 Fiyat sorup kaybolan "ölü" potansiyel müşterilere tek tek laf anlatmakla vakit kaybetmezsiniz. Asistanınız sadece bütçesi ve amacı uyan ciddi danışanları size yönlendirir.
 
@@ -54,6 +57,9 @@ Sizin için kuracağımız yapay zeka destekli profesyonel sistemin size sağlay
 - 7/24 Özel Yapay Zeka Asistanı
 Tamamen size özel eğitilmiş yapay zeka asistanınız; web sayfanız, Instagram veya WhatsApp üzerinden sizin adınıza 7/24 görüşmeler sağlar. Sizinle gerçekten çalışmak isteyenleri belirler ve sizin onayınızla randevu oluşturur.
 
+- Bölgesel Görünürlük (Özel SEO Çalışması)
+Size özel yapacağımız SEO çalışmasıyla, bulunduğunuz bölgede Google'a sadece 'spor' dahi yazılsa en üst sıralarda çıkmanızı sağlıyoruz. Birçok spor salonundan bile önce isminizin görünmesiyle potansiyel danışanlarınızın size ulaşması çok daha kolaylaşacak.
+
 - Otomatik Müşteri Takibi ve Veri Havuzu
 Size sadece fiyat sorup kararını erteleyen potansiyel müşteriler için bir veri havuzu oluşturuyoruz. Asistanınız belirli aralıklarla bu kişilerle otomatik olarak (mail/mesaj) tekrar iletişime geçerek onları kazanmanızı sağlıyor.
 
@@ -77,6 +83,9 @@ Sizin için kuracağımız sistemle şu büyük kolaylıkları sağlıyoruz:
 
 - 7/24 Sosyal Medya & Web Asistanı
 Tamamen size özel eğitilmiş asistanınız; web siteniz, Instagram ve WhatsApp'ınızda sizin adınıza görüşmeler yapar. Sadece fiyat soranları eler, gerçekten çalışmak isteyen ciddi danışanları belirleyip randevularınızı oluşturur.
+
+- Bölgesel Görünürlük (Özel SEO Çalışması)
+Size özel yapacağımız SEO çalışmasıyla, bulunduğunuz bölgede Google'a sadece 'spor' dahi yazılsa en üst sıralarda çıkmanızı sağlıyoruz. Birçok spor salonundan bile önce isminizin görünmesiyle potansiyel danışanlarınızın size ulaşması çok daha kolaylaşacak.
 
 - Akıllı Müşteri Takibi
 Sadece bilgi alıp kararını erteleyen kişiler için özel veriler oluşturuyoruz. Asistanınız belli aralıklarla bu kişilere otomatik olarak kendini hatırlatarak (mesaj veya mail ile) satış oranınızı artırır.
