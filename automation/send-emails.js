@@ -18,7 +18,7 @@ const EMAIL_BODIES = [
 
 Ben Eren Can. Almanya Duisburg Üniversitesi'nde Bilgisayar Mühendisliği, Yazılım Geliştirme ve Yapay Zeka üzerine lisans eğitimimi tamamladım. Şu anda yazılım üzerine profesyonel projeler hazırlıyorum. Kendim de antrenmanlarımı MacFit'te yaptığım için siz değerli hocalara ulaşma imkanı buldum.
 
-{{COMPLIMENT}} teknolojiyi de arkanıza almanız gerektiğini düşündüm. Avrupa'da profesyonel PT'ler artık DM'den "fiyat nedir" diye sorup kaybolanlarla vakit kaybetmiyor, tüm işlerini kendi web siteleri ve yapay zeka asistanlarıyla otomatik yönetiyorlar.
+{{COMPLIMENT}} Bu yüzden, teknolojiyi de arkanıza almanız gerektiğini düşündüm. Avrupa'da profesyonel PT'ler artık DM'den "fiyat nedir" diye sorup kaybolanlarla vakit kaybetmiyor, tüm işlerini kendi web siteleri ve yapay zeka asistanlarıyla otomatik yönetiyorlar.
 
 Sizin için tamamen size özel bir sistem hazırlayabileceğimizi düşündüm. Bu sistemle elde edeceğiniz bazı avantajlar:
 
@@ -50,7 +50,7 @@ Eren Can`,
 
 Ben Eren Can. Almanya Duisburg Üniversitesi'nde Bilgisayar Mühendisliği, Yazılım Geliştirme ve Yapay Zeka üzerine lisans eğitimimi tamamladım. Şu anda aktif olarak yazılım projeleri hazırlıyorum. Kendi antrenmanlarımı da MacFit'te yaptığım için sizin gibi değerli profesyonellere doğrudan ulaşma fırsatı buldum.
 
-{{COMPLIMENT}} dijital dünyada da çok daha görünür olup iş yükünüzü hafifletmeniz gerektiğini fark ettim. Çoğu hoca DM'den gelen "fiyat nedir" sorularına cevap vermekle büyük vakit kaybediyor.
+{{COMPLIMENT}} Bu profesyonel altyapınızla, dijital dünyada da çok daha görünür olup iş yükünüzü hafifletmeniz gerektiğini fark ettim. Çoğu hoca DM'den gelen "fiyat nedir" sorularına cevap vermekle büyük vakit kaybediyor.
 
 Sizin için kuracağımız yapay zeka destekli profesyonel sistemin size sağlayacağı kolaylıklar:
 
@@ -77,7 +77,7 @@ Eren Can`,
 
 Ben Eren Can. Almanya Duisburg Üniversitesi'nde Bilgisayar Mühendisliği, Yazılım Geliştirme ve Yapay Zeka üzerine lisans eğitimimi tamamladım. Şu an yazılım projeleri geliştiriyorum ve kendi antrenmanlarımı da MacFit'te yaptığım için siz değerli eğitmenlere ulaşma şansım oldu.
 
-{{COMPLIMENT}} aslında çok daha geniş kitlelere ulaşıp işlerinizi yapay zeka ile otomatikleştirebileceğinizi düşünüyorum. Avrupa'da hocalar artık Instagram DM'lerine yetişmek yerine tüm potansiyel müşterilerini kendi yapay zeka asistanlarına yönlendiriyor.
+{{COMPLIMENT}} Bu vizyonla, aslında çok daha geniş kitlelere ulaşıp işlerinizi yapay zeka ile otomatikleştirebileceğinizi düşünüyorum. Avrupa'da hocalar artık Instagram DM'lerine yetişmek yerine tüm potansiyel müşterilerini kendi yapay zeka asistanlarına yönlendiriyor.
 
 Sizin için kuracağımız sistemle şu büyük kolaylıkları sağlıyoruz:
 
@@ -170,7 +170,7 @@ async function run() {
         const randomSubject = EMAIL_SUBJECTS[Math.floor(Math.random() * EMAIL_SUBJECTS.length)];
         const randomBody = EMAIL_BODIES[Math.floor(Math.random() * EMAIL_BODIES.length)];
 
-        const fallbackCompliment = "Profilinizi detaylı inceleme fırsatım oldu; alanınızdaki profesyonel duruşunuz, sahip olduğunuz değerli sertifikalarınız, uzmanlık alanlarınız ve bugüne kadarki başarılarınız gerçekten çok dikkatimi çekti. Sizin gibi vizyoner bir antrenörün";
+        const fallbackCompliment = "Profilinizi detaylı inceleme fırsatım oldu; alanınızdaki profesyonel duruşunuz, sahip olduğunuz değerli sertifikalarınız, uzmanlık alanlarınız ve bugüne kadarki başarılarınız gerçekten çok dikkatimi çekti. Sizin gibi vizyoner bir antrenörün profilini incelemek bana ilham verdi.";
         const complimentText = trainer.compliment ? trainer.compliment : fallbackCompliment;
 
         const subject = randomSubject.replace(/{{NAME}}/g, firstName);
