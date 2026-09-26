@@ -95,8 +95,8 @@ async function runFollowUp() {
                 let text = CAMPAIGN_BODY.replace(/{{NAME}}/g, firstName);
                 text = text.replace(/{{EMAIL}}/g, encodeURIComponent(trainer.email));
 
-                let htmlText = text.replace(/\n/g, '<br>');
-                htmlText = htmlText.replace(/(https?:\/\/[^\s]+)/g, '<a href="$1" target="_blank" style="color: #0066cc; text-decoration: underline;">$1</a>');
+                let htmlText = text.replace(/(https?:\/\/[^\s]+)/g, '<a href="$1" target="_blank" style="color: #0066cc; text-decoration: underline;">$1</a>');
+                htmlText = htmlText.replace(/\n/g, '<br>');
 
                 try {
                     await transporter.sendMail({
@@ -121,8 +121,8 @@ async function runFollowUp() {
                 let text = REMINDER_BODY.replace(/{{NAME}}/g, firstName);
                 text = text.replace(/{{EMAIL}}/g, encodeURIComponent(trainer.email));
 
-                let htmlText = text.replace(/\n/g, '<br>');
-                htmlText = htmlText.replace(/(https?:\/\/[^\s]+)/g, '<a href="$1" target="_blank" style="color: #0066cc; text-decoration: underline;">$1</a>');
+                let htmlText = text.replace(/(https?:\/\/[^\s]+)/g, '<a href="$1" target="_blank" style="color: #0066cc; text-decoration: underline;">$1</a>');
+                htmlText = htmlText.replace(/\n/g, '<br>');
 
                 try {
                     await transporter.sendMail({

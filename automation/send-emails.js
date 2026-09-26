@@ -178,8 +178,8 @@ async function run() {
         text = text.replace(/{{COMPLIMENT}}/g, complimentText);
         text = text.replace(/{{EMAIL}}/g, encodeURIComponent(trainer.email));
 
-        let htmlText = text.replace(/\n/g, '<br>');
-        htmlText = htmlText.replace(/(https?:\/\/[^\s]+)/g, '<a href="$1" target="_blank" style="color: #0066cc; text-decoration: underline;">$1</a>');
+        let htmlText = text.replace(/(https?:\/\/[^\s]+)/g, '<a href="$1" target="_blank" style="color: #0066cc; text-decoration: underline;">$1</a>');
+        htmlText = htmlText.replace(/\n/g, '<br>');
 
         try {
             console.log(`[${i+1}/${batch.length}] Gonderiliyor: ${trainer.name} <${trainer.email}>`);
