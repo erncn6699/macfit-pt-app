@@ -1,8 +1,6 @@
 name: Daily Email Sender
 
 on:
-  schedule:
-    - cron: '0 5,17 * * *' # 05:00 and 17:00 UTC -> 08:00 and 20:00 TSI
   workflow_dispatch: # Manuel tetikleme için
   repository_dispatch:
     types: [trigger-daily-emails] # Dışarıdan %100 dakik tetiklemek için webhook
