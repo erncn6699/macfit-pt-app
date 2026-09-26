@@ -2,7 +2,7 @@ name: Daily Email Sender
 
 on:
   schedule:
-    - cron: '0 5 * * *' # 05:00 UTC -> 08:00 TSİ
+    - cron: '0 5,17 * * *' # 05:00 and 17:00 UTC -> 08:00 and 20:00 TSI
   workflow_dispatch: # Manuel tetikleme için
   repository_dispatch:
     types: [trigger-daily-emails] # Dışarıdan %100 dakik tetiklemek için webhook
@@ -33,7 +33,7 @@ jobs:
           SMTP_PASS: ${{ secrets.SMTP_PASS }}
           SMTP_HOST: ${{ secrets.SMTP_HOST }}
           SMTP_PORT: ${{ secrets.SMTP_PORT }}
-          LIMIT: 50
+          LIMIT: 10
         run: node send-emails.js
 
       - name: Run IMAP Check (Check Replies)
