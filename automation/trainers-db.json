@@ -4,105 +4,135 @@
     "email": "demosari.95@gmail.com",
     "sourceImage": "0041E6A9-C6F4-40F3-9BCE-CBF089231BDE_1_105_c.jpeg",
     "sent": true,
-    "sentAt": "2026-09-23T19:06:20.231Z"
+    "sentAt": "2026-09-23T19:06:20.231Z",
+    "reminderSent": true,
+    "reminderSentAt": "2026-09-27T05:02:01.792Z"
   },
   {
     "name": "Onur Şenal",
     "email": "onursenal@yandex.com",
     "sourceImage": "0351F454-F8BE-4BD5-B49D-8D9EB17D2464_1_105_c.jpeg",
     "sent": true,
-    "sentAt": "2026-09-23T19:06:26.221Z"
+    "sentAt": "2026-09-23T19:06:26.221Z",
+    "reminderSent": true,
+    "reminderSentAt": "2026-09-27T05:02:08.499Z"
   },
   {
     "name": "Uğur Okurlar",
     "email": "ugurokurlar@gmail.com",
     "sourceImage": "03FBF084-6F7F-4586-B653-107109D64724_1_105_c.jpeg",
     "sent": true,
-    "sentAt": "2026-09-23T19:06:32.168Z"
+    "sentAt": "2026-09-23T19:06:32.168Z",
+    "reminderSent": true,
+    "reminderSentAt": "2026-09-27T05:02:15.144Z"
   },
   {
     "name": "Berna Ünal",
     "email": "bernaunalmac@hotmail.com",
     "sourceImage": "048795C4-AE1E-4B8B-8DD3-F2047FAD63EA_1_105_c.jpeg",
     "sent": true,
-    "sentAt": "2026-09-23T19:06:38.017Z"
+    "sentAt": "2026-09-23T19:06:38.017Z",
+    "reminderSent": true,
+    "reminderSentAt": "2026-09-27T05:02:21.732Z"
   },
   {
     "name": "Fatma Erdoğmuş",
     "email": "pt.fatmaerdogmus@gmail.com",
     "sourceImage": "1BB2CB0E-A782-49AD-BC7E-BB3712E4C821_1_105_c.jpeg",
     "sent": true,
-    "sentAt": "2026-09-23T19:06:44.174Z"
+    "sentAt": "2026-09-23T19:06:44.174Z",
+    "reminderSent": true,
+    "reminderSentAt": "2026-09-27T05:02:28.309Z"
   },
   {
     "name": "Çiğdem Yakut",
     "email": "cigdemyakut1@gmail.com",
     "sourceImage": "1D874AF4-C722-4E88-8993-5A0936A47B92_1_105_c.jpeg",
     "sent": true,
-    "sentAt": "2026-09-23T19:06:50.039Z"
+    "sentAt": "2026-09-23T19:06:50.039Z",
+    "reminderSent": true,
+    "reminderSentAt": "2026-09-27T05:02:34.717Z"
   },
   {
     "name": "Ersin Bektaş",
     "email": "ersinbektas52@hotmail.com",
     "sourceImage": "1DD0BD28-E3D8-4766-982D-B0D82EAA510F_1_105_c.jpeg",
     "sent": true,
-    "sentAt": "2026-09-23T19:06:55.905Z"
+    "sentAt": "2026-09-23T19:06:55.905Z",
+    "reminderSent": true,
+    "reminderSentAt": "2026-09-27T05:02:41.333Z"
   },
   {
     "name": "Esranur Eren",
     "email": "pilatesr4@gmail.com",
     "sourceImage": "1EA0977B-DD51-4308-9407-7915C04139AF_1_105_c.jpeg",
     "sent": true,
-    "sentAt": "2026-09-23T19:07:02.033Z"
+    "sentAt": "2026-09-23T19:07:02.033Z",
+    "reminderSent": true,
+    "reminderSentAt": "2026-09-27T05:02:47.782Z"
   },
   {
     "name": "Emre Alkan",
     "email": "emreaalkan5@gmail.com",
     "sourceImage": "20C3C304-9E11-47DE-BD8B-D0040F2E2795_1_105_c.jpeg",
     "sent": true,
-    "sentAt": "2026-09-23T19:07:07.959Z"
+    "sentAt": "2026-09-23T19:07:07.959Z",
+    "reminderSent": true,
+    "reminderSentAt": "2026-09-27T05:02:54.295Z"
   },
   {
     "name": "Kadir Topal",
     "email": "kadirvercetti.pt@gmail.com",
     "sourceImage": "298EC8DE-18B0-4B26-B223-DCCE1D20EE26_1_105_c.jpeg",
     "sent": true,
-    "sentAt": "2026-09-23T19:07:13.877Z"
+    "sentAt": "2026-09-23T19:07:13.877Z",
+    "reminderSent": true,
+    "reminderSentAt": "2026-09-27T05:03:00.723Z"
   },
   {
     "name": "Ahmet Salih Sofuoğlu",
     "email": "ahmtsalihh@gmail.com",
     "sourceImage": "2A77F1FE-0C88-4EDB-9CCB-B893CC520321_1_105_c.jpeg",
     "sent": true,
-    "sentAt": "2026-09-23T19:07:19.671Z"
+    "sentAt": "2026-09-23T19:07:19.671Z",
+    "reminderSent": true,
+    "reminderSentAt": "2026-09-27T05:03:07.162Z"
   },
   {
     "name": "Muhammet Yasin Güler",
     "email": "yasinn.guler@hotmail.com",
     "sourceImage": "2B35B277-8B37-4CF9-96AD-AE3EB4BBDEF9_1_105_c.jpeg",
     "sent": true,
-    "sentAt": "2026-09-23T19:07:25.601Z"
+    "sentAt": "2026-09-23T19:07:25.601Z",
+    "reminderSent": true,
+    "reminderSentAt": "2026-09-27T05:03:13.724Z"
   },
   {
     "name": "HİLAL ÖZDEMİR",
     "email": "hilalooozdemir@gmail.com",
     "sourceImage": "2D558C97-E59D-4147-B9BA-AE447A806C15_1_105_c.jpeg",
     "sent": true,
-    "sentAt": "2026-09-23T19:07:31.501Z"
+    "sentAt": "2026-09-23T19:07:31.501Z",
+    "reminderSent": true,
+    "reminderSentAt": "2026-09-27T05:03:20.300Z"
   },
   {
     "name": "Hüsnü Cesur",
     "email": "cesurhusnu@gmail.com",
     "sourceImage": "3F685822-C032-4612-9118-7A7BE28E8B15_1_105_c.jpeg",
     "sent": true,
-    "sentAt": "2026-09-23T19:07:37.417Z"
+    "sentAt": "2026-09-23T19:07:37.417Z",
+    "reminderSent": true,
+    "reminderSentAt": "2026-09-27T05:03:26.830Z"
   },
   {
     "name": "Burak Barak",
     "email": "burak.barak27@gmail.com",
     "sourceImage": "E1B066F3-7930-4746-9348-0C6C6BE44BD6_1_105_c.jpeg",
     "sent": true,
-    "sentAt": "2026-09-23T19:07:43.245Z"
+    "sentAt": "2026-09-23T19:07:43.245Z",
+    "reminderSent": true,
+    "reminderSentAt": "2026-09-27T05:03:33.368Z"
   },
   {
     "name": "Demet Köse",
@@ -1020,7 +1050,8 @@
     "compliment": "Profilinizi incelediğimde 2012 yılından bu yana süregelen deneyiminizi, Gıda Mühendisliği altyapınızı ve bilimsel temellere dayalı yaklaşımınızı gördüm. Sizin gibi donanımlı bir profesyoneli görmek bana ilham verdi.",
     "sourceImage": "A476F498-7343-4727-ACEB-B93B05CE1A43_1_105_c.jpeg",
     "sent": true,
-    "sentAt": "2026-09-25T07:02:18.313Z"
+    "sentAt": "2026-09-25T07:02:18.313Z",
+    "replied": true
   },
   {
     "name": "Ihsan Berke Aksu",
@@ -1693,80 +1724,80 @@
     "email": "hilalkanipek26@icloud.com",
     "compliment": "Profilinizi incelediğimde 2014 yılından beri fitness ve vücut geliştirme alanındaki tecrübeniz, lisanslı sporcu geçmişiniz ve yurt dışı eğitmenlik deneyiminiz oldukça dikkatimi çekti. Sizin gibi çok yönlü ve donanımlı bir profesyoneli görmek bana ilham verdi.",
     "sourceImage": "F6C074F5-8D58-4EE4-B9E7-D8E241E0C75F_1_105_c.jpeg",
-    "sent": false,
-    "sentAt": null
+    "sent": true,
+    "sentAt": "2026-09-27T05:00:49.585Z"
   },
   {
     "name": "Özlem Yılancı Akkaş",
     "email": "ozlemyilanci00@hotmail.com",
     "compliment": "Profilinizi incelediğimde 2010 yılından beri süregelen eğitmenlik tecrübenizi, Hindistan Rishikesh'te aldığınız Yoga Alliance onaylı eğitmenlik sertifikanızı ve Hamile Yogası alanındaki uzmanlığınızı gördüm. Sizin gibi son derece donanımlı ve tecrübeli bir profesyoneli görmek bana ilham verdi.",
     "sourceImage": "F7925DBD-019C-48EC-A22B-6C277298421E_1_105_c.jpeg",
-    "sent": false,
-    "sentAt": null
+    "sent": true,
+    "sentAt": "2026-09-27T05:00:56.645Z"
   },
   {
     "name": "LATİFE ÇETİN",
     "email": "latifeecettin6@gmail.com",
     "compliment": "Profilinizi incelediğimde 5.0 tam puan ile gerçekleştirdiğiniz yüzlerce dersi, fonksiyonel antrenman ve postür odaklı nitelikli çalışma disiplininizi gördüm. Sizin gibi donanımlı ve danışan odaklı bir profesyoneli görmek bana ilham verdi.",
     "sourceImage": "F796EE51-2747-4A77-B65B-47A5A7F6A764_1_105_c.jpeg",
-    "sent": false,
-    "sentAt": null
+    "sent": true,
+    "sentAt": "2026-09-27T05:01:03.795Z"
   },
   {
     "name": "Enes Türk",
     "email": "enes.turkish14@gmail.com",
     "compliment": "Profilinizi incelediğimde 8 yıllık bireysel antrenörlük deneyiminiz, TVGFBF 3. Kademe Kıdemli Antrenörlük belgeniz ve Spor Bilimleri Fakültesi mezuniyetiniz dikkatimi çekti. Sizin gibi spor geçmişiyle harmanlanmış donanımlı bir profesyoneli görmek bana ilham verdi.",
     "sourceImage": "F8149FF4-29DA-4D3A-8765-8EC8BF1A62DB_1_105_c.jpeg",
-    "sent": false,
-    "sentAt": null
+    "sent": true,
+    "sentAt": "2026-09-27T05:01:10.713Z"
   },
   {
     "name": "Duygu Gök",
     "email": "duyguugok33@gmail.com",
     "compliment": "Profilinizi incelediğimde Beden Eğitimi ve Spor Öğretmenliği mezuniyetiniz, lisanslı zumba ve pilates geçmişiniz ile 2019'dan bu yana MAC bünyesindeki başarılı çalışmalarınızı gördüm. Sizin gibi donanımlı ve tecrübeli bir profesyoneli görmek bana ilham verdi.",
     "sourceImage": "F8F7AE89-93BF-42EA-A4B1-9D4A69B36B93_1_105_c.jpeg",
-    "sent": false,
-    "sentAt": null
+    "sent": true,
+    "sentAt": "2026-09-27T05:01:17.585Z"
   },
   {
     "name": "Semih Ayçiçek",
     "email": "semihaycicek@gmail.com",
     "compliment": "Profilinizi incelediğimde bilimsel temellere dayanan antrenman yaklaşımınız, 710'dan fazla başarılı grup dersi tecrübeniz ve 5.0 tam puanlık yüksek memnuniyet oranınız dikkatimi çekti. Sizin gibi donanımlı bir profesyoneli görmek bana ilham verdi.",
     "sourceImage": "F99F1552-B824-4DB0-B7C8-36D3A10E06EC_1_105_c.jpeg",
-    "sent": false,
-    "sentAt": null
+    "sent": true,
+    "sentAt": "2026-09-27T05:01:24.345Z"
   },
   {
     "name": "Aslı Canbolat Ünlü",
     "email": "aslicanbolat0@gmail.com.tr",
     "compliment": "Profilinizi incelediğimde Yoga, fitness ve CrossFit alanlarındaki uzmanlık belgelerinizi ve zihin-beden bütünlüğüne dayanan bütüncül yaklaşımınızı büyük bir takdirle gördüm. Sizin gibi donanımlı ve vizyoner bir profesyoneli görmek bana ilham verdi.",
     "sourceImage": "F9A15333-7DDD-4E7B-8EC4-8BF659F6F55F_1_105_c.jpeg",
-    "sent": false,
-    "sentAt": null
+    "sent": true,
+    "sentAt": "2026-09-27T05:01:31.196Z"
   },
   {
     "name": "Emre Kubilay Oğuz",
     "email": "kubilayemre55@gmail.com",
     "compliment": "Profilinizi incelediğimde 2013-2024 yılları arasındaki kürek milli takımı kariyerinizi, Beden Eğitimi mezuniyetinizi ve antrenman bilimi üzerindeki yüksek lisans çalışmalarınızı gördüm. Sizin gibi sporculuk geçmişi ve akademik altyapısı bu kadar güçlü bir profesyoneli görmek bana ilham verdi.",
     "sourceImage": "FBB0B7D7-AD53-4A3C-AC68-B4A334A0F419_1_105_c.jpeg",
-    "sent": false,
-    "sentAt": null
+    "sent": true,
+    "sentAt": "2026-09-27T05:01:38.141Z"
   },
   {
     "name": "Furkan Çiftçi",
     "email": "furkan55furkan@icloud.com",
     "compliment": "Profilinizi incelediğimde 2009'a dayanan futbol geçmişiniz, aldığınız çeşitli lisanslar ve 5.0 tam puanla tamamladığınız yüzlerce başarılı dersinizi gördüm. Sizin gibi spor tutkusunu tecrübeyle birleştiren donanımlı bir profesyoneli görmek bana ilham verdi.",
     "sourceImage": "FCAD4529-D80F-4DAB-B90B-E9BDA3D5A532_1_105_c.jpeg",
-    "sent": false,
-    "sentAt": null
+    "sent": true,
+    "sentAt": "2026-09-27T05:01:45.015Z"
   },
   {
     "name": "Gökhan Bildik",
     "email": "gokhanbildik12@gmail.com",
     "compliment": "Profilinizi incelediğimde 2009 yılından beri fitness, vücut geliştirme, kick boks ve muay thai gibi birçok farklı disiplinde edindiğiniz 15 yılı aşkın tecrübenizi gördüm. Sizin gibi donanımlı ve vizyoner bir antrenörün görmek bana ilham verdi.",
     "sourceImage": "FCCA4C8A-ADBB-4515-A7E7-D798D70053A5_1_105_c.jpeg",
-    "sent": false,
-    "sentAt": null
+    "sent": true,
+    "sentAt": "2026-09-27T05:01:51.808Z"
   },
   {
     "name": "Bağışhan Doğan",
